@@ -35,15 +35,17 @@ input, textarea, button, select {
   border-radius: 1vw;
 
 }
-
+textarea {
+  width: 100%;
+}
 
 .textarea-content {
   display: flex;
-  margin: 1vh auto;
-  width:100%;
-  padding: 1vh 1vw;
+
+  width: 100%;
+
   flex-flow: column nowrap;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .add-note-button-group {
@@ -71,6 +73,10 @@ input, textarea, button, select {
   display: flex;
   margin: 1vh 1vw;
 
+}
+
+select {
+  padding: .5vh ;
 }
 
 .input-options select {
