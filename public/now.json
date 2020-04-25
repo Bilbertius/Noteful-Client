@@ -1,7 +1,7 @@
 {
   "version": 2,
   "alias": "",
-  "name": "noteful-client",
+  "name": "noteful client",
   "routes": [
       { "src": "^/static/(.*)",
         "dest": "/static/$1"
