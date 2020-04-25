@@ -1,0 +1,40 @@
+input {
+  padding : .5vh;
+  border-radius: 15px;
+}
+
+button {
+  height: 3vh;
+  width: 5vw;
+
+  border-radius: 12px;
+}
+
+.add-folder-form {
+  display: flex;
+  margin: 1vh 1vw;
+  flex-flow: column nowrap;
+  margin: 5vh 5vw;
+}
+
+.add-folder-form .form-group {
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+.add-folder-form input {
+  flex: 1;
+}
+
+.add-folder-button-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-folder-button {
+  width: 40%;
+  height: 3vh;
+  margin-top: 2vh;
+  font-weight: bold;
+}

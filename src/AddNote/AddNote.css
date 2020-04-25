@@ -1,0 +1,77 @@
+form.add-note-form {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  width:30vw;
+  padding: 2vw;
+  font-size: 2vh;
+}
+* {
+  color: hsl(162, 100%, 82%);
+}
+
+input, textarea, button, select {
+  background-color: #3a536d;
+  border: none;
+}
+
+.form-group {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.input-note-name {
+  margin: 1vh 1vw;
+  width: 95%;
+  display: flex;
+}
+#note-name {
+  width: 100%;
+  border-radius: 2vw;
+}
+
+#note-content {
+  width: 100%;
+  border-radius: 1vw;
+
+}
+
+
+.textarea-content {
+  display: flex;
+  margin: 1vh auto;
+  width:100%;
+  flex-flow: column nowrap;
+  border-radius: 20px;
+}
+
+.add-note-button-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add-note-button {
+  flex-grow: 1;
+  padding: 0 0;
+
+  margin: 10px;
+  border-radius: 1vw;
+  box-shadow: 0 2px 3px rgba(173, 246, 255, 0.44);
+}
+.add-note-button:hover {
+  background-color: #315362;
+}
+.add-note-button:active {
+  box-shadow: 0 2px 3px inset rgba(173, 246, 255,0.44);
+}
+.input-options {
+  width: 100%;
+  display: flex;
+  margin: 1vh 1vw;
+
+}
+
+.input-options select {
+  width: 80%;
+}
