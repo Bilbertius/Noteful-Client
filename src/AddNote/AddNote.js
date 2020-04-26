@@ -83,7 +83,7 @@ class AddNote extends Component {
         <h2>Add a Note</h2>
         <div className='form-group'>
           <label htmlFor='note-name'>Name of Note: </label>
-          <input type='text' className='note-name' id='note-name' name='note-name'/>
+          <input type='text' className='note-name' id='note-name' name='note-name' onChange={() => this.setState({error: null})}/>
           {this.state.error && (<ValidationError message={this.state.error} clearError={this.clearError}/>)}
           <div className='textarea-content'>
             <label htmlFor='note-content'>Note content: </label>
